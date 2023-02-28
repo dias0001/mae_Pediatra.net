@@ -1,6 +1,18 @@
 body{
-    background-color: rgb(80, 124, 124);
+    background-color: rgb(204, 180, 207);
     margin-bottom: 500px;
+}
+
+/* navbar */
+
+.logo-machine-2 {
+  width: 80px;
+  height: 80px;
+  color: aliceblue;
+}
+
+.navbar {
+  background-color: rgb(228, 208, 208);
 }
 
 #event-description {
