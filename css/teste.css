@@ -43,6 +43,53 @@ h1, h2, h3, h4, h5, h6 {
     align-content: flex-end;
   }
 
+   /* benefits section */
+
+   #key-benefits h2 {
+    background-color: var(--secondary);
+    text-align: center;
+    padding: 2em;
+    font-weight: 500;
+  }
+
+  .benefits {
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .benefit {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    color: var(--text-tertiary);
+  }
+
+  .benefit .benefit-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+  }
+
+  #benefit-1 {
+    background-image: url("../img/tempo.jpg");
+  }
+
+  #benefit-2 {
+    background-image: url("../img/falta_tempo.jpg");
+  }
+
+  #benefit-3 {
+    background-image: url("../img/mentalFilho.jpg");
+  }
+
   /* Section livros e cursos */
 
   .detail {
