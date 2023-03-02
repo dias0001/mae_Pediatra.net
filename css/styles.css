@@ -179,6 +179,34 @@ background-color: rgb(228, 208, 208);
   margin-bottom: 0.4em;
 }
 
+/* galerry */
+
+#img2 {
+  background-image: url('../img/amor-materno.jpg');
+}
+#img3 {
+  background-image: url('../img/limite.jpg');
+}
+#img4 {
+  background-image: url('../img/adolescência.jpg');
+}
+#img5 {
+  background-image: url('../img/321.jpg');
+}
+
+#gallery-container h1 {
+  text-align: center;
+}
+
+#gallery-container h1, #gallery-container .col-md-6, #gallery-container .col-12  {
+  margin-bottom: 50px;
+}
+
+.small-image-container {
+  height: 250px;
+  margin-bottom: 20px;
+}
+
 /* mobile jOãO*/
 
 
@@ -212,3 +240,4 @@ background-color: rgb(228, 208, 208);
    } 
 
 }
+
