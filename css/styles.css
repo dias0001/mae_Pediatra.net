@@ -1,89 +1,136 @@
 body{
-    background-color: rgb(204, 180, 207);
-    margin-bottom: 500px;
+  background-color: rgb(204, 180, 207);
+  margin-bottom: 500px;
 }
 
 * {
-  overflow-x: hidden;
+overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  overflow-y: hidden !important;
+overflow-y: hidden !important;
 }
 
 /* navbar */
 
 .logo-machine-2 {
-  width: 80px;
-  height: 80px;
-  color: aliceblue;
+width: 80px;
+height: 80px;
+color: aliceblue;
 }
 
 .navbar {
-  background-color: rgb(228, 208, 208);
+background-color: rgb(228, 208, 208);
 }
 
 #event-description {
-    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../img/capa2.png");
-    background-position: center;
-    background-size: cover;
-    height: 90vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    margin-bottom: 10px;
-  }
+  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../img/capa2.png");
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
 
-  .btn-card {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: flex-end;
-  }
+.btn-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-end;
+}
 
-  /* Section livros e cursos */
+ /* benefits section */
 
-  .detail {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 5%;
-    margin-bottom: 4em;
-  }
+ #key-benefits h2 {
+  background-color: var(--secondary);
+  text-align: center;
+  padding: 2em;
+  font-weight: 500;
+}
 
-  .detail img {
-    width: 50%;
-      }
+.benefits {
+  display: flex;
+  justify-content: space-around;
+  padding: 4em;
+  width: 80%;
+  margin: 0 auto;
+}
 
-  .detail h3 {
-    margin-bottom: 1em;
-    font-size: 2em;
-    font-weight: 500;
-  }
+.benefit {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20%;
+  color: var(--text-tertiary);
+}
 
-  #detail-1 h3 {
-    font-size: 3em;
-    font-weight: 700;
-  }
+.benefit .benefit-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
+}
 
-  .detail-description {
-    width: 100%;
-    padding-left: 2em;
-  }
+#benefit-1 {
+  background-image: url("../img/tempo.jpg");
+}
 
-  .detail-description ul {
-    list-style-position: inside;    
-  }
+#benefit-2 {
+  background-image: url("../img/falta_tempo.jpg");
+}
 
-  .detail-description ul li {
-    margin-bottom: 0.4em;
-  }
+#benefit-3 {
+  background-image: url("../img/mentalFilho.jpg");
+}
 
+/* Section livros e cursos */
 
-  @media (max-width: 575px) {
-    .img-hidden {
-      display: none;
+.detail {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5%;
+  margin-bottom: 4em;
+}
+
+.detail img {
+  width: 50%;
     }
+
+.detail h3 {
+  margin-bottom: 1em;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+#detail-1 h3 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.detail-description {
+  width: 100%;
+  padding-left: 2em;
+}
+
+.detail-description ul {
+  list-style-position: inside;    
+}
+
+.detail-description ul li {
+  margin-bottom: 0.4em;
+}
+
+
+@media (max-width: 575px) {
+  .img-hidden {
+    display: none;
   }
+}
