@@ -147,7 +147,7 @@ background-color: rgb(228, 208, 208);
 }
 
 /* mobile */
-@media (max-width: 450px) {
+@media (max-width: 820px) {
   
   /* benefits section */
   .benefits {
