@@ -10,7 +10,11 @@
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <!-- link css -->
   <link rel="stylesheet" href="css/teste.css">
+  <!-- link CDN icon  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
 </head>
 
@@ -19,17 +23,16 @@
     <!-- place navbar here -->
 
     <div class="container">
-      <nav class="row navbar navbar-expand-lg bg-body-tertiary bg-dark">
+      <nav class="row navbar navbar-expand-lg bg-body-tertiary bg-primary">
         <div class="container-fluid col-md-4">
-          <a class="navbar-brand  text-light" href="#"> <img class="logo-machine-2 bg-light"
-              src="img/medicina-alternativa.png" alt="Logo maepediatranet.com"> maepediatranet.com</a>
+          <a class="navbar-brand  text-light" href="#">maepediatranet.com</a>
           <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon bg-light"></span>
           </button>
         </div>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="col-md-6 d-flex flex-row-reverse collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ">
             <li class="nav-item">
               <a class="nav-link active  text-light" aria-current="page" href="#disclaimer">Início</a>
@@ -54,71 +57,48 @@
     <section id="banner-topo" class="d--none d-md-block">
       <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
-          <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+          <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active bg-dark" aria-current="true"
             aria-label="First slide"></li>
-          <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-          <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+          <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide" class="bg-dark"></li>
+          <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide" class="bg-dark"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active">
             <img src="./img/1.jpg" class="w-100 d-block kenburns-bottom-right img-1" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
               <h2 class="text-dark">Maepediatranet e saúde mental infantil</h2>
-              <p class="text-dark pala"> <strong>O objetivo desse site é apoiar as famílias na construção de uma boa saúde mental, fornecendo várias dicas que ajudam na prevenção e proteção às condições mentais, aumentando o bem-estar e a qualidade de vida das crianças e dos adolescentes. </strong> </p>
+              <p class="text-dark pala"> <strong>O objetivo desse site é apoiar as famílias na construção de uma boa
+                  saúde mental, fornecendo várias dicas que ajudam na prevenção e proteção às condições mentais,
+                  aumentando o bem-estar e a qualidade de vida das crianças e dos adolescentes. </strong> </p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="./img/2.jpg" class="w-100 d-block kenburns-bottom-right img-1" alt="Second slide">
             <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-dark">Title</h3>
-              <p class="text-dark pala"> <strong>O principal objetivo do maepediatranet.com é fornecer orientações para cuidar e entender a mente das crianças.</strong> </p>
+              <h3 class="text-dark"> maepediatranet.com</h3>
+              <p class="text-dark pala"> <strong>O principal objetivo do maepediatranet.com é fornecer orientações para
+                  cuidar e entender a mente das crianças.</strong> </p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="./img/3.jpg" class="w-100 d-block kenburns-bottom-right img-1" alt="Third slide">
             <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-dark">Title</h3>
-              <p class="text-dark pala"> <strong>Atualmente, sabe-se que, no mundo, uma em cada cinco crianças e adolescentes tem algum transtorno mental. No Brasil, onde faltam pesquisa.</strong> </p>
+              <h3 class="text-dark">Mãe Pediatra</h3>
+              <p class="text-dark pala"> <strong>Atualmente, sabe-se que, no mundo, uma em cada cinco crianças e
+                  adolescentes tem algum transtorno mental. No Brasil, onde faltam pesquisa.</strong> </p>
             </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
     </section>
-
-
-    <!-- <div id="event-description">
-      <div id="disclaimer">
-        <h2 class="text-light text-center">Maepediatranet e saúde mental infantil</h2>
-        <p class="about-event text-light text-center">
-          O principal objetivo do maepediatranet.com é fornecer orientações para cuidar e entender a mente das crianças.
-
-          Saúde mental infantil é um assunto que deveria ser muito discutido. pois os transtornos mentais se manifestam
-          de maneira diferente nas crianças e podem ser confundidos com problemas comportamentais.
-
-          A infância sempre foi considerada como a melhor fase da vida. Hoje nossa realidade é outra e muito
-          preocupante.
-
-          Atualmente, sabe-se que, no mundo, uma em cada cinco crianças e adolescentes tem algum transtorno mental. No
-          Brasil, onde faltam pesquisas, a incidência varia de 7% a 20%, e na pandemia a situação piorou muito.
-
-          A infância é um período determinante na vida e tudo o que acontece nela adquire papel fundamental na formação
-          do adulto. Portanto, cuidar da saúde da mente na infância e adolescência faz muita diferença na vida adulta.
-
-          O objetivo desse site é apoiar as famílias na construção de uma boa saúde mental, fornecendo várias dicas que
-          ajudam na prevenção e proteção às condições mentais, aumentando o bem-estar e a qualidade de vida das crianças
-          e dos adolescentes.
-        </p>
-      </div>
-    </div> -->
 
     <div class="card mt-3 bg-dark text-center mt-3">
       <div class="row card-body">
@@ -133,7 +113,7 @@
     </div>
 
     <section id="sobre">
-      <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
+      <div class="row row-cols-1 row cols-md-2 g-4 mt-3">
         <div class="col-md-6" id="blog">
           <div class="card">
             <img src="img/kids_mother.jpg" class="card-img-top" alt="...">
@@ -187,11 +167,11 @@
     </section>
 
     <section id="cta">
-      <div>
+      <div class="col-md-12">
         <h3 class="text-light text-center">Mother's coach - do you really like ?</h3>
-        <p class="text-light text-center">Você realmente gostou</p>
-        <button class="btn1 bg-primary text-light w-50 offset-3">Saiba mais ...</button>
+        <p class="text-light text-center">Você realmente gostou</p>        
       </div>
+      <button class="btn1 bg-primary col-4 text-light border ">Saiba mais ...</button>
     </section>
 
 
@@ -216,24 +196,19 @@
           <p>
             Se preocupe com a saúde física e mental do seu filho:
           </p>
-        </div>
-        <button type="button" class="btn btn-info mb-3"> <a
-            href="https://www.amazon.com.br/dp/B08YMJ4L7Q#detailBullets_feature_div"
-            class="card-link text-decoration-none text-light"> Saiba mais
-            ...</a></button>
+        </div>        
       </div>
+      <button type="button" class="btn btn-info col-md-2 offset-5 mb-3"> <a
+        href="https://www.amazon.com.br/dp/B08YMJ4L7Q#detailBullets_feature_div"
+        class="card-link text-decoration-none text-light"> Saiba mais
+        ...</a></button>
     </section>
 
 
     <section id="details" class="mt-4">
 
       <div class="container col-md-12 detail">
-        <!-- Imagem do desktop -->
-        <!-- <div class="img-hidden col-5 offset-1">
-              <img src="img/cerebro1.jpg" alt="Sala decorada em tons escuros" class="mb-3">
-            </div> -->
-
-        <div class="detail-description text-center">
+                <div class="detail-description text-center">
           <h2>Livros e cursos</h2>
         </div>
       </div>
@@ -334,28 +309,32 @@
       </div>
       <div class="row gx-5">
         <div class="col-12 col-md-6">
-          <div class="small-image-container center-image" id="img2"></div>
+          <div class="center-image" id="img2"></div>
+          <img src="img/amor-materno.jpg" width="450" height="250" alt="">
           <h3>O retorno do amor materno na pandemia</h3>
           <p class="secondary-color">Por Patrícia Macedo / 26/05/2021</p>
           <a href="#" class="btn">Saiba mais ...</a>
         </div>
 
         <div class="col-12 col-md-6">
-          <div class="small-image-container center-image" id="img3"></div>
+          <div class="center-image" id="img3"></div>
+          <img src="img/limite.jpg" width="450" height="250" alt="">
           <h3>LIMITE</h3>
           <p class="secondary-color">Por Patrícia Macedo / 21/04/2021</p>
           <a href="#" class="btn">Saiba mais ...</a>
         </div>
 
         <div class="col-12 col-md-6">
-          <div class="small-image-container center-image" id="img4"></div>
+          <div class="center-image" id="img4"></div>
+          <img src="img/adolescência.jpg" width="450" height="250" alt="">
           <h3>Adolescência e limites. Ainda dá tempo?</h3>
           <p class="secondary-color">Por Patrícia Macedo / 21/04/2021</p>
           <a href="#" class="btn">Saiba mais ...</a>
         </div>
 
         <div class="col-12 col-md-6">
-          <div class="small-image-container center-image" id="img5"></div>
+          <div class="center-image" id="img5"></div>
+          <img src="img/321.jpg" width="450" height="250" alt="">
           <h3>COMO ESCUTAR UMA CRIANÇA VÍTIMA DE VIOLÊNCIA SEXUAL</h3>
           <p class="secondary-color">Por Patrícia Macedo / 21/04/2021</p>
           <a href="#" class="btn">Saiba mais ...</a>
@@ -363,12 +342,40 @@
       </div>
     </div>
 
-    <div class="container text-center">
+    <div class="container text-center border border-primary mb-3">
       <div class="row">
         <div class="col-md-6">
           <h2>Inscrever-se</h2>
-          <p>9:00 am to 23:00 pm (sunday closed)</p>
+          <p><i class="bi bi-alarm-fill"></i> 9:00 am to 23:00 pm (sunday closed)</p>
+          <br>
+          <br>
+          <br>
+          <a class="instagram" href="https://www.instagram.com/patricia.dias_mp/" target="_blank" data-toggle="tooltip"
+            data-placement="top" title="Visite nosso Instagram" class="vibrate-1"> <span
+              class="tamanho-icone "></span></a>
+
+          <div class="mt-5">
+            <h5 class="text-dark"><i class="fa-solid fa-arrow-down"></i> Visite nosso Instagram e Facebook ou agende uma
+              consulta pelo WhatsApp, clique no Ícone:</h5>
+
+            <a class="instagram" href="https://www.instagram.com/acupuntura.maricampos/" target="_blank"
+              data-toggle="tooltip" data-placement="top" title="Visite nosso Instagram" class="vibrate-1"> <span
+                class="tamanho-icone "><i class="fa-brands bi-instagram fs-1"></i></span></a>
+
+            <a id="contatos" class="WhatsApp" href="https://wa.me/+5512997688869?text=Gostaria de agendar uma sessão"
+              target="_blank" data-toggle="tooltip" data-placement="top" title="Agende uma consulta pelo Whatsapp"
+              class="vibrate-1">
+              <i class="fa-2x fa bi-whatsapp fs-1"></i>
+            </a>
+
+            <a id="contatos" class="facebook" href="https://www.facebook.com/patricia.macedo.142892" target="_blank"
+              data-toggle="tooltip" data-placement="top" title="Visite nosso facebook" class="vibrate-1">
+              <i class="fa-2x fa bi-facebook fs-1"></i>
+            </a>
+
+          </div>
         </div>
+
         <div class="col-md-6">
           <h2>Formulário de Registro</h2>
           <form action="">
@@ -394,12 +401,40 @@
       </div>
     </div>
 
-
-
-
   </main>
   <footer>
     <!-- place footer here -->
+    <div class="container d-flex justify-content-center bg-primary">
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="list-unstyled">
+            <li class="">Nossos contatos:</li>
+            <li class="mt-2"><i class="bi bi-whatsapp"></i> (12)997688869
+            </li>
+            <li class=""><i class="bi bi-facebook"></i> Patricia Macedo
+            </li>
+            <li class=""><i class="bi bi-instagram"></i> @patricia.dias_mp
+            </li>
+            <li class=""><i class="bi bi-envelope-plus-fill"></i> PATRICIAMACEDO@MAEPEDIATRANET.COM
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <p class="">Endereço:</p>
+          <ul class="list-unstyled">
+            <li>Rua: xxx, n -sala 2 - BAirro, São josé dos Campos</li>
+            <li>São josé dos Campos - CEP: xxxxx-xxx</li>
+          </ul>
+          </ul>
+          <!-- <div class="col-md-6">
+          <p class="mb-4">Endereço:</p>
+          <ul class="list-unstyled">
+            <li>Rua: México, 274 -sala 2 - Vista Verde, São josé dos Campos</li>
+            <li>São josé dos Campos - CEP: 12223-000</li>
+          </ul>
+        </div> -->
+        </div>
+      </div>
   </footer>
 
   <!-- Bootstrap JavaScript Libraries -->

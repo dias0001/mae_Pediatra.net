@@ -1,6 +1,6 @@
 body{
-  background-color: rgb(204, 180, 207);
-  margin-bottom: 500px;
+  background-color: rgb(252, 138, 44);
+  background: #edecec;
 }
 
 * {
@@ -41,6 +41,16 @@ background-color: rgb(228, 208, 208);
   justify-content: center;
   align-items: center;
   align-content: flex-end;
+}
+
+/* carrocel */
+
+.img-1 {
+  opacity: 0.5;
+}
+
+.pala {
+  font-size: 20px;
 }
 
  /* benefits section */
@@ -128,16 +138,14 @@ background-color: rgb(228, 208, 208);
 
 /* btn  Mother's coach */
 .btn1 {
-  background-color: darkcyan;
   text-transform: uppercase;
-  width: 100%;
   border: none;
   padding: 12px;
   cursor: pointer;
   opacity: 0.8;
 }
 
-.btn:hover {
+.btn1:hover:hover {
   opacity: 1;
 }
 
@@ -181,8 +189,8 @@ background-color: rgb(228, 208, 208);
 
 /* galerry */
 
-#img2 {
-  background-image: url('../img/amor-materno.jpg');
+/* #img2 {
+  background-image: url('../img/amor-materno11.jpg');
 }
 #img3 {
   background-image: url('../img/limite.jpg');
@@ -192,7 +200,7 @@ background-color: rgb(228, 208, 208);
 }
 #img5 {
   background-image: url('../img/321.jpg');
-}
+} */
 
 #gallery-container h1 {
   text-align: center;
