@@ -64,6 +64,10 @@ overflow-y: hidden !important;
   opacity: 1;
 }
 
+.btn-card {
+  margin: 0;
+}
+
  /* benefits section */
 
  #key-benefits h2 {

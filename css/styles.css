@@ -64,10 +64,13 @@ overflow-y: hidden !important;
   opacity: 1;
 }
 
+/* sobre */
+
+.btn
+
  /* benefits section */
 
  #key-benefits h2 {
-  background-color: var(--secondary);
   text-align: center;
   padding: 2em;
   font-weight: 500;
