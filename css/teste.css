@@ -39,8 +39,6 @@ overflow-y: hidden !important;
   background-color: #814a4c;
 }
 
-
-
 .img-1 {
   opacity: 0.5;
 }
@@ -202,6 +200,10 @@ overflow-y: hidden !important;
 .small-image-container {
   height: 250px;
   margin-bottom: 20px;
+}
+
+.test {
+  margin-left: 2.5%;
 }
 
 /* footer */
